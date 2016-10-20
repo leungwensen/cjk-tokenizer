@@ -1,0 +1,37 @@
+{
+  "name": "cjk-tokenizer",
+  "version": "0.0.1",
+  "description": "A CJK text tokenizer",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leungwensen/cjk-tokenizer.git"
+  },
+  "keywords": [
+    "CJK",
+    "tokenizer",
+    "CJK",
+    "tokenizer",
+    "n-gram",
+    "porter-stemmer",
+    "text",
+    "corpus",
+    "Chinese",
+    "Japanese",
+    "Korean",
+    "English"
+  ],
+  "author": "leungwensen@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leungwensen/cjk-tokenizer/issues"
+  },
+  "homepage": "https://github.com/leungwensen/cjk-tokenizer#readme",
+  "dependencies": {
+    "porter-stemmer": "^0.9.1",
+    "tiny-segmenter": "^0.2.0"
+  }
+}

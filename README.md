@@ -1,2 +1,4 @@
-# cjk-terms-extraction
-extract terms from CJK text
+cjk-tokenizer
+=============
+
+Extract terms from CJK text.
