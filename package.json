@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "A CJK text tokenizer",
   "main": "lib/index.js",
+  "bin": {
+    "cjk-tokenizer": "./bin/cjk-tokenizer.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -31,7 +34,10 @@
   },
   "homepage": "https://github.com/leungwensen/cjk-tokenizer#readme",
   "dependencies": {
+    "commander": "^2.9.0",
+    "japanese": "^1.1.0",
     "porter-stemmer": "^0.9.1",
-    "tiny-segmenter": "^0.2.0"
+    "tiny-segmenter": "^0.2.0",
+    "zero-lang": "^0.2.1"
   }
 }
