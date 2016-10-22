@@ -18,6 +18,7 @@ commander
     .version(pkg.version)
     .arguments('<filename>')
     .option('-s, --stopWords <stopWords>', 'stop words', list)
+    .option('-l, --languages <languages>', 'languages', list)
     .action((filename) => {
         let content;
         try {
@@ -27,6 +28,7 @@ commander
             process.exit(1);
         }
         const tokens = cjkTokenizer.tokenize(content, {
+            languages: commander.languages || null,
             stopWords: commander.stopWords || [],
         });
         console.log(JSON.stringify(tokens, null, 2));
