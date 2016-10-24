@@ -37,7 +37,6 @@
     "commander": "^2.9.0",
     "japanese": "^1.1.0",
     "porter-stemmer": "^0.9.1",
-    "tiny-segmenter": "^0.2.0",
     "zero-lang": "^0.2.1"
   }
 }
